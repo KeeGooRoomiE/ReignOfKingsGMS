@@ -13,16 +13,20 @@ global.activePopup = false;
 sws=sprite_get_width(spr_w_gui_res);
 shs=sprite_get_height(spr_w_gui_res);
 
+
+#region		//--create a resources panels
 for (i=0; i<4; i++)
 {
 	res_gui_panel=instance_create_depth(sws/2+sws*i,shs/2,-9997,obj_gui_resource);
 	res_gui_panel.res_type=i+1;
 	
 }
+#endregion
 
-//notifications pre-setup
+#region		//--notifications pre-setup
 notify[0]=0;
 notify_count=0;
+
 
 for (i=0; i<10; i++)
 {
@@ -31,3 +35,4 @@ for (i=0; i<10; i++)
 }
 
 notificator=instance_create_depth(0,0,-9997,obj_gui_notification);
+#endregion

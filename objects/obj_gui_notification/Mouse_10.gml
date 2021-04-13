@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Show hower
+
 if (isEmpty)
 {
 	hower=show_hower(8,3,"No news");

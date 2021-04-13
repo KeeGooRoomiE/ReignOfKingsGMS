@@ -49,6 +49,8 @@ image_index=type+1;
 //		instance_destroy(self);
 //	}
 //}
+
+#region		//--fading notification behaviour
 if (isFading)
 {
 	if (alpha >0)
@@ -63,3 +65,6 @@ if (isFading)
 		type=-1;
 	}
 }
+#endregion
+
+//

@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Move to target if acceptable
 if (!isEmpty)
 {
 	if (target!=noone)

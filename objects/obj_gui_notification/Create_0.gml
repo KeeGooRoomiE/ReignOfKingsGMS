@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Init variables and behaviour
 // You can write your code in this editor
 
 //yy[0]=0;
@@ -11,7 +11,7 @@
 target=noone;
 text="";
 type=0;
-counter=0;
+//counter=0;
 
 image_speed=0;
 
