@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_w_node",
-    "path": "sprites/spr_w_node/spr_w_node.yy",
+    "name": "spr_settler_node",
+    "path": "sprites/spr_settler_node/spr_settler_node.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Interactive ",
-    "path": "folders/Objects/World/Interactive .yy",
+    "name": "Visual",
+    "path": "folders/Objects/World/Visual.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_w_node",
+  "name": "obj_settler_node",
   "tags": [],
   "resourceType": "GMObject",
 }
