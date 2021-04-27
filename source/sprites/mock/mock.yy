@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"59a83d50-85b4-4c2e-b5b3-d1f8f55abf5b","path":"sprites/Sprite27/Sprite27.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"59a83d50-85b4-4c2e-b5b3-d1f8f55abf5b","path":"sprites/Sprite27/Sprite27.yy",},"LayerId":{"name":"9ebfe075-3200-470a-baab-1f2da7e9f104","path":"sprites/Sprite27/Sprite27.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},"resourceVersion":"1.0","name":"59a83d50-85b4-4c2e-b5b3-d1f8f55abf5b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"59a83d50-85b4-4c2e-b5b3-d1f8f55abf5b","path":"sprites/mock/mock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"59a83d50-85b4-4c2e-b5b3-d1f8f55abf5b","path":"sprites/mock/mock.yy",},"LayerId":{"name":"9ebfe075-3200-470a-baab-1f2da7e9f104","path":"sprites/mock/mock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"mock","path":"sprites/mock/mock.yy",},"resourceVersion":"1.0","name":"59a83d50-85b4-4c2e-b5b3-d1f8f55abf5b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},
+    "spriteId": {"name":"mock","path":"sprites/mock/mock.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"37111ceb-01cd-4731-b273-25609e2540ef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"59a83d50-85b4-4c2e-b5b3-d1f8f55abf5b","path":"sprites/Sprite27/Sprite27.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"37111ceb-01cd-4731-b273-25609e2540ef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"59a83d50-85b4-4c2e-b5b3-d1f8f55abf5b","path":"sprites/mock/mock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},
+    "parent": {"name":"mock","path":"sprites/mock/mock.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite27",
+    "name": "mock",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite27",
+  "name": "mock",
   "tags": [],
   "resourceType": "GMSprite",
 }

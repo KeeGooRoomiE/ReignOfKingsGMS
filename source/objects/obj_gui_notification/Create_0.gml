@@ -24,3 +24,7 @@ isFading=false;
 hower=noone;
 
 global.not_panel=id;
+
+notificationCount=2;
+
+isOpenNotificationColumn = false;

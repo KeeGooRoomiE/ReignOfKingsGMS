@@ -3,6 +3,7 @@
 
 image_index=type+1;
 
+#region
 //counter=counter%10;
 //startingY=yy[counter];
 
@@ -49,6 +50,7 @@ image_index=type+1;
 //		instance_destroy(self);
 //	}
 //}
+#endregion
 
 #region		//--fading notification behaviour
 if (isFading)
@@ -61,10 +63,19 @@ if (isFading)
 	{
 		alpha=0;
 		isEmpty=true;
-		isfading=false;
+		isFading=false;
 		type=-1;
+		notificationCount -=1;
 	}
 }
 #endregion
 
-//
+#region		//--autoclose notification column if notification count less 2
+if (notificationCount <=1)
+{
+	if (isOpenNotificationColumn) {
+		isOpenNotificationColumn = false;
+	}
+}
+#endregion
+
